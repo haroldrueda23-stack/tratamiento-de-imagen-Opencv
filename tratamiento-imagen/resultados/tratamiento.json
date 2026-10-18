@@ -1,0 +1,76 @@
+{
+  "gamma": 0.437,
+  "objetivo": 110,
+  "metricas": {
+    "Original": {
+      "ancho": 2016,
+      "alto": 1512,
+      "brillo": 37.27,
+      "contraste": 13.12,
+      "nitidez": 46.82,
+      "nitidez_roi": 39.6,
+      "brillo_roi": 32.15,
+      "contraste_roi": 18.77,
+      "rango_dinamico": 63.0,
+      "pct_oscuros": 82.9,
+      "pct_saturados": 0.0,
+      "ruido": 0.653
+    },
+    "Gamma 0.44 (elegida)": {
+      "ancho": 2016,
+      "alto": 1512,
+      "brillo": 103.6,
+      "contraste": 24.23,
+      "nitidez": 92.58,
+      "nitidez_roi": 136.48,
+      "brillo_roi": 88.66,
+      "contraste_roi": 39.46,
+      "rango_dinamico": 118.0,
+      "pct_oscuros": 5.7,
+      "pct_saturados": 0.0,
+      "ruido": 0.951
+    },
+    "Lineal (a=2, b=40)": {
+      "ancho": 2016,
+      "alto": 1512,
+      "brillo": 114.83,
+      "contraste": 26.37,
+      "nitidez": 187.38,
+      "nitidez_roi": 158.63,
+      "brillo_roi": 104.41,
+      "contraste_roi": 37.58,
+      "rango_dinamico": 127.0,
+      "pct_oscuros": 1.8,
+      "pct_saturados": 0.0,
+      "ruido": 1.308
+    },
+    "Ecualización (V)": {
+      "ancho": 2016,
+      "alto": 1512,
+      "brillo": 125.37,
+      "contraste": 75.22,
+      "nitidez": 2090.22,
+      "nitidez_roi": 1522.56,
+      "brillo_roi": 109.04,
+      "contraste_roi": 87.29,
+      "rango_dinamico": 248.0,
+      "pct_oscuros": 21.2,
+      "pct_saturados": 0.64,
+      "ruido": 4.493
+    },
+    "CLAHE (L)": {
+      "ancho": 2016,
+      "alto": 1512,
+      "brillo": 64.16,
+      "contraste": 26.71,
+      "nitidez": 555.98,
+      "nitidez_roi": 374.99,
+      "brillo_roi": 63.43,
+      "contraste_roi": 38.38,
+      "rango_dinamico": 127.0,
+      "pct_oscuros": 29.9,
+      "pct_saturados": 0.0,
+      "ruido": 2.422
+    }
+  }
+}
